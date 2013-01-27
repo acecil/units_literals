@@ -49,7 +49,11 @@ BOOST_UNITS_LITERAL(suffix, unit, val, T, 1000000000000.0) \
 BOOST_UNITS_LITERAL(suffix, unit, val, G, 1000000000.0) \
 BOOST_UNITS_LITERAL(suffix, unit, val, M, 1000000.0) \
 BOOST_UNITS_LITERAL(suffix, unit, val, k, 1000.0) \
+BOOST_UNITS_LITERAL(suffix, unit, val, h, 100.0) \
+BOOST_UNITS_LITERAL(suffix, unit, val, da, 10.0) \
 BOOST_UNITS_LITERAL(suffix, unit, val, , 1.0) \
+BOOST_UNITS_LITERAL(suffix, unit, val, d, 0.1) \
+BOOST_UNITS_LITERAL(suffix, unit, val, c, 0.01) \
 BOOST_UNITS_LITERAL(suffix, unit, val, m, 0.001) \
 BOOST_UNITS_LITERAL(suffix, unit, val, u, 0.000001) \
 BOOST_UNITS_LITERAL(suffix, unit, val, n, 0.00000001) \
@@ -90,7 +94,7 @@ BOOST_UNITS_LITERAL_SET(Sv, dose_equivalent, sievert)
 BOOST_UNITS_LITERAL_SET(kat, catalytic_activity, katal)
 BOOST_UNITS_LITERAL_SET(min, time, 60.0 * second)
 BOOST_UNITS_LITERAL_SET(h, time, 60.0 * 60.0 * second)
-BOOST_UNITS_LITERAL_SET(d, time, 60.0 * 60.0 * 24.0 * second)
+BOOST_UNITS_LITERAL_SET(day, time, 60.0 * 60.0 * 24.0 * second)
 BOOST_UNITS_LITERAL_SET(deg, plane_angle, M_PI / 180.0 * radian)
 BOOST_UNITS_LITERAL_SET(l, volume, 0.001 * cubic_meter)
 BOOST_UNITS_LITERAL_SET(L, volume, 0.001 * cubic_meter)
