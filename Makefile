@@ -1,5 +1,5 @@
 TARGET = test
-CC = g++
+CC ?= g++
 CFLAGS = -g -O0 -Wall -std=c++11
 
 .PHONY: default all clean
