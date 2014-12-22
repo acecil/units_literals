@@ -7,7 +7,7 @@ User defined literals for the Boost Units library.
 User defined literals for almost all the S.I. units are defined including variants for each S.I. prefix.
 
 * `auto d = 3.0_m;` // 3 metres
-* `auto acc = 4.8_km / 1.0_h;` // 4.8 kilometres per hour
+* `auto acc = 4.8_km / 1.0_h / 1.0h;` // 4.8 kilometres per square hour
 * `auto ti = 9.11_ps;` // 9.11 pico seconds
 
 These are defined in the `literals.hpp` header in the `boost::units::literals` namespace.
